@@ -1,0 +1,32 @@
+# config.yaml
+
+# Model Hyperparameters
+batch_size: 8
+learning_rate: 0.0001
+num_epochs: 1000
+l1_alpha: 1.2
+global_wgan_loss_alpha: 1.
+gp_weight: 10.0
+gan_loss_alpha: 0.0005
+l1_loss_alpha: 1.2
+ae_loss_alpha: 1.2
+
+# Image Hyperparameters
+large_dim : 512
+small_dim : 64
+
+
+
+
+
+
+# Path for the Monitored Training
+#save_img_epoch: '/home/robin/Nextcloud_sn/Masterarbeit/Results/figures/figures'
+save_gen_path: '/home/robin/Nextcloud_sn/Masterarbeit/Results/networks/generator'
+log_dir: '/home/robin/Nextcloud_sn/Masterarbeit/Results/logs'
+
+# Path for the Data
+dem_path: '/home/robin/Nextcloud_sn/Masterarbeit/DataSet/V1.8/DEMs'
+inner_outer_path: '/home/robin/Nextcloud_sn/Masterarbeit/DataSet/V1.8/Inner-Outer Mask'
+intersection_path: '/home/robin/Nextcloud_sn/Masterarbeit/DataSet/V1.8/Intersection Mask'
+intersection_small_path: '/home/robin/Nextcloud_sn/Masterarbeit/DataSet/V1.8/Intersection Mask Small'
